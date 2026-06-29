@@ -2318,18 +2318,21 @@ Il2Cpp.perform(async () => {
     } catch (e) { console.error("[ContainerFreedom]", e) }
   }
 
-  // --- RPC Protection (expanded to 27+ RPCs) ---
+  // --- RPC Protection (hostile RPCs only from other modders) ---
   function installRPCProtection() {
     if (rpcProtectInstalled) return
     const hostileRPCs = [
-      "RPC_PlayerHit", "RPC_PlayerStun", "RPC_AddForce", "RPC_Teleport",
-      "RPC_SetColor", "RPC_KillPlayer", "RPC_KickPlayer", "RPC_BanPlayer",
-      "RPC_RemovePlayer", "RPC_DisconnectPlayer", "RPC_SetHealth",
-      "RPC_DamagePlayer", "RPC_ForceDisconnect", "RPC_RespawnPlayer",
-      "RPC_SetPosition", "RPC_ApplyKnockback", "RPC_FreezePlayer",
-      "RPC_MutePlayer", "RPC_ToggleMute", "RPC_StunAll",
-      "RPC_SetRadioActive", "RPC_SetJellyEffect",
-      "RPC_SetSqueakyVoiceEnabled", "RPC_SetMuffledVoiceEnabled",
+      "RPC_Teleport", "RPC_SetPosition",
+      "RPC_KillPlayer", "RPC_KickPlayer", "RPC_BanPlayer",
+      "RPC_RemovePlayer", "RPC_DisconnectPlayer", "RPC_ForceDisconnect",
+      "RPC_DamagePlayer", "RPC_PlayerHit", "RPC_PlayerStun",
+      "RPC_ApplyKnockback", "RPC_FreezePlayer", "RPC_StunAll",
+      "RPC_AddForce", "RPC_RespawnPlayer"
+    ]
+    const safeRPCs = [
+      "RPC_SetColor", "RPC_SetHealth", "RPC_SetRadioActive",
+      "RPC_SetJellyEffect", "RPC_SetSqueakyVoiceEnabled",
+      "RPC_SetMuffledVoiceEnabled", "RPC_MutePlayer", "RPC_ToggleMute",
       "RPC_AttachTo", "RPC_DetachFromAttachable", "RPC_AttachToAttachable"
     ]
     try {
@@ -2341,14 +2344,14 @@ Il2Cpp.perform(async () => {
           const name = m.name.toString()
           if (hostileRPCs.some(h => name.includes(h))) {
             m.implementation = function() {
-              console.log("[RPCProtect] Blocked: " + name)
+              console.log("[RPCProtect] Blocked hostile: " + name)
             }
             blocked++
           }
         } catch(_) {}
       }
       rpcProtectInstalled = true
-      console.log("[RPCProtection] Installed, blocked " + blocked + " hostile RPCs")
+      console.log("[RPCProtection] Installed, blocked " + blocked + " hostile RPCs, safe RPCs left untouched")
     } catch (e) { console.error("[RPCProtection]", e) }
   }
 
