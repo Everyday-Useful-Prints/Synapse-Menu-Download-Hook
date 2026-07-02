@@ -1,5 +1,5 @@
 declare const Il2Cpp: any;
-declare const console: any;
+
 Il2Cpp.$config.exports = {
 	il2cpp_init: () => Il2Cpp.module.findExportByName("MNXFFoVVXrf"),
 	il2cpp_init_utf16: () => Il2Cpp.module.findExportByName("xsrafLmzjfT"),
