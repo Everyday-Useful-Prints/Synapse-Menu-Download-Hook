@@ -323,247 +323,247 @@ var Il2Cpp;
      */
     Il2Cpp.exports = {
         get alloc() {
-            return r("nJdxKYNPOMJ", "pointer", ["size_t"]);
+            return r("CXIzOOeZhUT", "pointer", ["size_t"]);
         },
         get arrayGetLength() {
-            return r("tGQHONEPNZz", "uint32", ["pointer"]);
+            return r("CloseZStream", "uint32", ["pointer"]);
         },
         get arrayNew() {
-            return r("vLnrtYWfaeQ", "pointer", ["pointer", "uint32"]);
+            return r("CreateNLSocket", "pointer", ["pointer", "uint32"]);
         },
         get assemblyGetImage() {
-            return r("oShQgZQpjBt", "pointer", ["pointer"]);
+            return r("DcObyGZarnC", "pointer", ["pointer"]);
         },
         get classForEach() {
-            return r("tojQgILxyHf", "void", ["pointer", "pointer"]);
+            return r("DllCanUnloadNow", "void", ["pointer", "pointer"]);
         },
         get classFromName() {
-            return r("VzN_rhJeUbn", "pointer", ["pointer", "pointer", "pointer"]);
+            return r("FYTsFRHrqxW", "pointer", ["pointer", "pointer", "pointer"]);
         },
         get classFromObject() {
-            return r("IjctiUnIOVJ", "pointer", ["pointer"]);
+            return r("F_SoRLbgVaz", "pointer", ["pointer"]);
         },
         get classGetArrayClass() {
-            return r("ByAyMAZxAzI", "pointer", ["pointer", "uint32"]);
+            return r("CloseNLSocket", "pointer", ["pointer", "uint32"]);
         },
         get classGetArrayElementSize() {
-            return r("efCMCsdSZrW", "int", ["pointer"]);
+            return r("JLkJdXVeNrz", "int", ["pointer"]);
         },
         get classGetAssemblyName() {
-            return r("R_TPoQDLxeo", "pointer", ["pointer"]);
+            return r("KsAoxIOmBaG", "pointer", ["pointer"]);
         },
         get classGetBaseType() {
-            return r("jCMAFYFzkiX", "pointer", ["pointer"]);
+            return r("DllGetActivationFactory", "pointer", ["pointer"]);
         },
         get classGetDeclaringType() {
-            return r("GxynbiMgUHX", "pointer", ["pointer"]);
-        },
-        get classGetElementClass() {
-            return r("JYsBXYqFjVV", "pointer", ["pointer"]);
-        },
-        get classGetFieldFromName() {
-            return r("GfMhhA_ZKzC", "pointer", ["pointer", "pointer"]);
-        },
-        get classGetFields() {
-            return r("bIWZNpCfboY", "pointer", ["pointer", "pointer"]);
-        },
-        get classGetFlags() {
-            return r("bZhmmQIVhwW", "int", ["pointer"]);
-        },
-        get classGetImage() {
-            return r("StshHKTL_cL", "pointer", ["pointer"]);
-        },
-        get classGetInstanceSize() {
-            return r("EBsvLxZuBvp", "int32", ["pointer"]);
-        },
-        get classGetInterfaces() {
-            return r("EqfuCWROmkd", "pointer", ["pointer", "pointer"]);
-        },
-        get classGetMethodFromName() {
-            return r("ByWOFUcisdP", "pointer", ["pointer", "pointer", "int"]);
-        },
-        get classGetMethods() {
-            return r("BMEdhSeTiDF", "pointer", ["pointer", "pointer"]);
-        },
-        get classGetName() {
-            return r("hBkEPqHsVVf", "pointer", ["pointer"]);
-        },
-        get classGetNamespace() {
-            return r("pWtgCDXghce", "pointer", ["pointer"]);
-        },
-        get classGetNestedClasses() {
-            return r("pmN_srZJaaJ", "pointer", ["pointer", "pointer"]);
-        },
-        get classGetParent() {
-            return r("qHFtGJe_nie", "pointer", ["pointer"]);
-        },
-        get classGetStaticFieldData() {
-            return r("MbJlDdOiflp", "pointer", ["pointer"]);
-        },
-        get classGetValueTypeSize() {
-            return r("rxKixxPUbCO", "int32", ["pointer", "pointer"]);
-        },
-        get classGetType() {
-            return r("nhkOmZxDCbR", "pointer", ["pointer"]);
-        },
-        get classHasReferences() {
-            return r("kALdJVGuvVx", "bool", ["pointer"]);
-        },
-        get classInitialize() {
-            return r("SVwkrGVowMx", "void", ["pointer"]);
-        },
-        get classIsAbstract() {
-            return r("bZbhekAtNZR", "bool", ["pointer"]);
-        },
-        get classIsAssignableFrom() {
-            return r("uVShUbVe_AM", "bool", ["pointer", "pointer"]);
-        },
-        get classIsBlittable() {
-            return r("BwDWJvUiMZW", "bool", ["pointer"]);
-        },
-        get classIsEnum() {
-            return r("vVABhWQRLdd", "bool", ["pointer"]);
-        },
-        get classIsGeneric() {
-            return r("FYTsFRHrqxW", "bool", ["pointer"]);
-        },
-        get classIsInflated() {
-            return r("omJgoRCNzYV", "bool", ["pointer"]);
-        },
-        get classIsInterface() {
-            return r("fcGKQqTKSVl", "bool", ["pointer"]);
-        },
-        get classIsSubclassOf() {
-            return r("YIocRkIAJMr", "bool", ["pointer", "pointer", "bool"]);
-        },
-        get classIsValueType() {
-            return r("KQjtStkSoZR", "bool", ["pointer"]);
-        },
-        get domainGetAssemblyFromName() {
-            return r("cWoFLOzxflk", "pointer", ["pointer", "pointer"]);
-        },
-        get domainGet() {
-            return r("UxRwfTpbcuM", "pointer", []);
-        },
-        get domainGetAssemblies() {
-            return r("KLYChbobdyz", "pointer", ["pointer", "pointer"]);
-        },
-        get fieldGetClass() {
-            return r("IAxERFLbxtV", "pointer", ["pointer"]);
-        },
-        get fieldGetFlags() {
-            return r("ZkuhYPBvAob", "int", ["pointer"]);
-        },
-        get fieldGetName() {
-            return r("PawrCVCYLKM", "pointer", ["pointer"]);
-        },
-        get fieldGetOffset() {
-            return r("bdtznTwFzCT", "int32", ["pointer"]);
-        },
-        get fieldGetStaticValue() {
-            return r("mMfYCggyGpD", "void", ["pointer", "pointer"]);
-        },
-        get fieldGetType() {
             return r("HdjcVPVsuiR", "pointer", ["pointer"]);
         },
+        get classGetElementClass() {
+            return r("Flush", "pointer", ["pointer"]);
+        },
+        get classGetFieldFromName() {
+            return r("GgfCiprOycI", "pointer", ["pointer", "pointer"]);
+        },
+        get classGetFields() {
+            return r("FwHfEahjyhu", "pointer", ["pointer", "pointer"]);
+        },
+        get classGetFlags() {
+            return r("ItIOrtishzT", "int", ["pointer"]);
+        },
+        get classGetImage() {
+            return r("KcMvYPksVuW", "pointer", ["pointer"]);
+        },
+        get classGetInstanceSize() {
+            return r("HjSToMAtsiC", "int32", ["pointer"]);
+        },
+        get classGetInterfaces() {
+            return r("GEvQzrLRhBT", "pointer", ["pointer", "pointer"]);
+        },
+        get classGetMethodFromName() {
+            return r("GxynbiMgUHX", "pointer", ["pointer", "pointer", "int"]);
+        },
+        get classGetMethods() {
+            return r("GxSZhcqgezq", "pointer", ["pointer", "pointer"]);
+        },
+        get classGetName() {
+            return r("HFGGzuClLnc", "pointer", ["pointer"]);
+        },
+        get classGetNamespace() {
+            return r("HSjGQoWqALK", "pointer", ["pointer"]);
+        },
+        get classGetNestedClasses() {
+            return r("GBsWbzHHEht", "pointer", ["pointer", "pointer"]);
+        },
+        get classGetParent() {
+            return r("Hb_cUaZTDXt", "pointer", ["pointer"]);
+        },
+        get classGetStaticFieldData() {
+            return r("LhViGlNKeOh", "pointer", ["pointer"]);
+        },
+        get classGetValueTypeSize() {
+            return r("IQCdjoPWucM", "int32", ["pointer", "pointer"]);
+        },
+        get classGetType() {
+            return r("JYsBXYqFjVV", "pointer", ["pointer"]);
+        },
+        get classHasReferences() {
+            return r("KQjtStkSoZR", "bool", ["pointer"]);
+        },
+        get classInitialize() {
+            return r("gABBHgVMCrd", "void", ["pointer"]);
+        },
+        get classIsAbstract() {
+            return r("IuZDHbDjZOv", "bool", ["pointer"]);
+        },
+        get classIsAssignableFrom() {
+            return r("EqfuCWROmkd", "bool", ["pointer", "pointer"]);
+        },
+        get classIsBlittable() {
+            return r("IjctiUnIOVJ", "bool", ["pointer"]);
+        },
+        get classIsEnum() {
+            return r("KRJCThqyAub", "bool", ["pointer"]);
+        },
+        get classIsGeneric() {
+            return r("EBsvLxZuBvp", "bool", ["pointer"]);
+        },
+        get classIsInflated() {
+            return r("EFtrdteCtpY", "bool", ["pointer"]);
+        },
+        get classIsInterface() {
+            return r("JDIsePwzgru", "bool", ["pointer"]);
+        },
+        get classIsSubclassOf() {
+            return r("EzRXqgELTaA", "bool", ["pointer", "pointer", "bool"]);
+        },
+        get classIsValueType() {
+            return r("IAxERFLbxtV", "bool", ["pointer"]);
+        },
+        get domainGetAssemblyFromName() {
+            return r("NXsESXOYFOJ", "pointer", ["pointer", "pointer"]);
+        },
+        get domainGet() {
+            return r("NFXhCODPplW", "pointer", []);
+        },
+        get domainGetAssemblies() {
+            return r("NZLFNvoVibP", "pointer", ["pointer", "pointer"]);
+        },
+        get fieldGetClass() {
+            return r("PlmxcsrYqYq", "pointer", ["pointer"]);
+        },
+        get fieldGetFlags() {
+            return r("OxqTONlfiAP", "int", ["pointer"]);
+        },
+        get fieldGetName() {
+            return r("PbQWvnHocPe", "pointer", ["pointer"]);
+        },
+        get fieldGetOffset() {
+            return r("RZFReTrHkYV", "int32", ["pointer"]);
+        },
+        get fieldGetStaticValue() {
+            return r("ReadEvents", "void", ["pointer", "pointer"]);
+        },
+        get fieldGetType() {
+            return r("R_TPoQDLxeo", "pointer", ["pointer"]);
+        },
         get fieldSetStaticValue() {
-            return r("qvmlU_eeWGM", "void", ["pointer", "pointer"]);
+            return r("ReadZStream", "void", ["pointer", "pointer"]);
         },
         get free() {
-            return r("flTEculUNpA", "void", ["pointer"]);
+            return r("CXghRadiSAi", "void", ["pointer"]);
         },
         get gcCollect() {
-            return r("pyNLOsqUnhg", "void", ["int"]);
+            return r("SUh_dHayZaF", "void", ["int"]);
         },
         get gcCollectALittle() {
-            return r("aLrMeSCdbgm", "void", []);
+            return r("SVwkrGVowMx", "void", []);
         },
         get gcDisable() {
-            return r("CMskVlQvxsc", "void", []);
+            return r("SmWqeJasAPR", "void", []);
         },
         get gcEnable() {
-            return r("DcObyGZarnC", "void", []);
+            return r("StshHKTL_cL", "void", []);
         },
         get gcGetHeapSize() {
-            return r("nV_UvMBmbnW", "int64", []);
+            return r("ULMQXLAficR", "int64", []);
         },
         get gcGetMaxTimeSlice() {
-            return r("aBtQwCkQbfD", "int64", []);
+            return r("TwOltvhYwzO", "int64", []);
         },
         get gcGetUsedSize() {
-            return r("hRbBmbXoTtE", "int64", []);
+            return r("UILDKhUxESw", "int64", []);
         },
         get gcHandleGetTarget() {
-            return r("fXFlpuMLHcr", "pointer", ["uint32"]);
+            return r("WriteZStream", "pointer", ["uint32"]);
         },
         get gcHandleFree() {
-            return r("JDIsePwzgru", "void", ["uint32"]);
+            return r("XZbHhtuTfSq", "void", ["uint32"]);
         },
         get gcHandleNew() {
-            return r("dFiUkbwPcjO", "uint32", ["pointer", "bool"]);
+            return r("WKZnPczvRWj", "uint32", ["pointer", "bool"]);
         },
         get gcHandleNewWeakRef() {
-            return r("mdJoXikKypB", "uint32", ["pointer", "bool"]);
+            return r("WTohygySpuu", "uint32", ["pointer", "bool"]);
         },
         get gcIsDisabled() {
-            return r("HjSToMAtsiC", "bool", []);
+            return r("TRxRNVjyWfB", "bool", []);
         },
         get gcIsIncremental() {
-            return r("cQLiMBOtBpB", "bool", []);
+            return r("T_hsHazMpMh", "bool", []);
         },
         get gcSetMaxTimeSlice() {
-            return r("SOIojVTPUki", "void", ["int64"]);
+            return r("TyqpZIt_TXE", "void", ["int64"]);
         },
         get gcStartIncrementalCollection() {
-            return r("YVejPzwJnWB", "void", []);
+            return r("SjqmzMZCYrA", "void", []);
         },
         get gcStartWorld() {
-            return r("ypSuJxYBawh", "void", []);
+            return r("WIiawxtezqj", "void", []);
         },
         get gcStopWorld() {
-            return r("zugpgKKZxUW", "void", []);
+            return r("VzN_rhJeUbn", "void", []);
         },
         get getCorlib() {
-            return r("ZkmjgsyUyQv", "pointer", []);
+            return r("CIhPxXopaXy", "pointer", []);
         },
         get imageGetAssembly() {
-            return r("CIhPxXopaXy", "pointer", ["pointer"]);
+            return r("pWtgCDXghce", "pointer", ["pointer"]);
         },
         get imageGetClass() {
-            return r("SUh_dHayZaF", "pointer", ["pointer", "uint"]);
+            return r("qYVmAmZRNSd", "pointer", ["pointer", "uint"]);
         },
         get imageGetClassCount() {
-            return r("F_SoRLbgVaz", "uint32", ["pointer"]);
+            return r("qHFtGJe_nie", "uint32", ["pointer"]);
         },
         get imageGetName() {
-            return r("YDhACmsDqJS", "pointer", ["pointer"]);
+            return r("pmN_srZJaaJ", "pointer", ["pointer"]);
         },
         get initialize() {
-            return r("YTbsQ_oyGJD", "void", ["pointer"]);
+            return r("AAGCGhRWxLl", "void", ["pointer"]);
         },
         get livenessAllocateStruct() {
-            return r("azQFSWgziec", "pointer", ["pointer", "int", "pointer", "pointer", "pointer"]);
+            return r("ZPIMusjWhTD", "pointer", ["pointer", "int", "pointer", "pointer", "pointer"]);
         },
         get livenessCalculationBegin() {
-            return r("il2cpp_unity_liveness_calculation_begin", "pointer", ["pointer", "int", "pointer", "pointer", "pointer", "pointer"]);
+            return r("ZAUxPLvbEOD", "pointer", ["pointer", "int", "pointer", "pointer", "pointer", "pointer"]);
         },
         get livenessCalculationEnd() {
-            return r("il2cpp_unity_liveness_calculation_end", "void", ["pointer"]);
+            return r("ZCzpDZVAJFA", "void", ["pointer"]);
         },
         get livenessCalculationFromStatics() {
-            return r("f_sBePKFGit", "void", ["pointer"]);
+            return r("ZGLyQLRBSyw", "void", ["pointer"]);
         },
         get livenessFinalize() {
-            return r("YUNOICIpltA", "void", ["pointer"]);
+            return r("ZkmjgsyUyQv", "void", ["pointer"]);
         },
         get livenessFreeStruct() {
-            return r("lCSsLwKjkvH", "void", ["pointer"]);
+            return r("ZkuhYPBvAob", "void", ["pointer"]);
         },
         get memorySnapshotCapture() {
-            return r("SG_IMuVeVZE", "pointer", []);
+            return r("qvmlU_eeWGM", "pointer", []);
         },
         get memorySnapshotFree() {
-            return r("jcwgyCYqBHy", "void", ["pointer"]);
+            return r("qwViBHpfykL", "void", ["pointer"]);
         },
         get memorySnapshotGetClasses() {
             return r("il2cpp_memory_snapshot_get_classes", "pointer", ["pointer", "pointer"]);
@@ -572,124 +572,124 @@ var Il2Cpp;
             return r("il2cpp_memory_snapshot_get_objects", "pointer", ["pointer", "pointer"]);
         },
         get methodGetClass() {
-            return r("flvNWMDZyDv", "pointer", ["pointer"]);
+            return r("aLrMeSCdbgm", "pointer", ["pointer"]);
         },
         get methodGetFlags() {
-            return r("DyyVrpoRwhY", "uint32", ["pointer", "pointer"]);
+            return r("aYkj_ICzQts", "uint32", ["pointer", "pointer"]);
         },
         get methodGetName() {
-            return r("bYjLgnGWwXv", "pointer", ["pointer"]);
+            return r("_ANjg_OJE_l", "pointer", ["pointer"]);
         },
         get methodGetObject() {
-            return r("ULMQXLAficR", "pointer", ["pointer", "pointer"]);
+            return r("_IEIqZsIXcF", "pointer", ["pointer", "pointer"]);
         },
         get methodGetParameterCount() {
-            return r("rZKxvoJqUTe", "uint8", ["pointer"]);
+            return r("aIdkmeItQnK", "uint8", ["pointer"]);
         },
         get methodGetParameterName() {
-            return r("AxTGAYDtzgL", "pointer", ["pointer", "uint32"]);
+            return r("azQFSWgziec", "pointer", ["pointer", "uint32"]);
         },
         get methodGetParameters() {
             return r("il2cpp_method_get_parameters", "pointer", ["pointer", "pointer"]);
         },
         get methodGetParameterType() {
-            return r("BYwuzDqKovG", "pointer", ["pointer", "uint32"]);
+            return r("aJxdvk_sNQH", "pointer", ["pointer", "uint32"]);
         },
         get methodGetReturnType() {
-            return r("tgWiglABSRj", "pointer", ["pointer"]);
+            return r("ZoEqaGUfoTr", "pointer", ["pointer"]);
         },
         get methodIsGeneric() {
-            return r("AyKF_dUviEw", "bool", ["pointer"]);
+            return r("_YfvUkTkoNT", "bool", ["pointer"]);
         },
         get methodIsInflated() {
-            return r("aOyRCxvfiGR", "bool", ["pointer"]);
+            return r("_vYgcrIzAgK", "bool", ["pointer"]);
         },
         get methodIsInstance() {
-            return r("DEGLPquxXQu", "bool", ["pointer"]);
+            return r("aBtQwCkQbfD", "bool", ["pointer"]);
         },
         get monitorEnter() {
-            return r("PlmxcsrYqYq", "void", ["pointer"]);
+            return r("eQSAOptyHgi", "void", ["pointer"]);
         },
         get monitorExit() {
-            return r("GBsWbzHHEht", "void", ["pointer"]);
+            return r("fVSNPYgzh_x", "void", ["pointer"]);
         },
         get monitorPulse() {
-            return r("NjK_lJyxxFJ", "void", ["pointer"]);
+            return r("fXFlpuMLHcr", "void", ["pointer"]);
         },
         get monitorPulseAll() {
-            return r("kkStqIZcscb", "void", ["pointer"]);
+            return r("f_sBePKFGit", "void", ["pointer"]);
         },
         get monitorTryEnter() {
-            return r("wciZNVabcCt", "bool", ["pointer", "uint32"]);
+            return r("efCMCsdSZrW", "bool", ["pointer", "uint32"]);
         },
         get monitorTryWait() {
-            return r("nRFX_vzjlNL", "bool", ["pointer", "uint32"]);
+            return r("flTEculUNpA", "bool", ["pointer", "uint32"]);
         },
         get monitorWait() {
-            return r("UnUU_AXxOmF", "void", ["pointer"]);
+            return r("fcGKQqTKSVl", "void", ["pointer"]);
         },
         get objectGetClass() {
-            return r("oPLzsO__pjp", "pointer", ["pointer"]);
+            return r("dFiUkbwPcjO", "pointer", ["pointer"]);
         },
         get objectGetVirtualMethod() {
-            return r("LVLfHhXPreC", "pointer", ["pointer", "pointer"]);
+            return r("dNWJissUgQN", "pointer", ["pointer", "pointer"]);
         },
         get objectInitialize() {
-            return r("O_biHywYomK", "void", ["pointer", "pointer"]);
+            return r("hBkEPqHsVVf", "void", ["pointer", "pointer"]);
         },
         get objectNew() {
-            return r("WTohygySpuu", "pointer", ["pointer"]);
+            return r("dcubiGNJIzE", "pointer", ["pointer"]);
         },
         get objectGetSize() {
-            return r("gABBHgVMCrd", "uint32", ["pointer"]);
+            return r("dKMUXxAkPvY", "uint32", ["pointer"]);
         },
         get objectUnbox() {
-            return r("MkNhanlUvaW", "pointer", ["pointer"]);
-        },
-        get resolveInternalCall() {
-            return r("yzRUahzF_Xv", "pointer", ["pointer"]);
-        },
-        get stringGetChars() {
-            return r("LxqJktEJxBh", "pointer", ["pointer"]);
-        },
-        get stringGetLength() {
-            return r("VoOnbJInSDC", "int32", ["pointer"]);
-        },
-        get stringNew() {
-            return r("_vYgcrIzAgK", "pointer", ["pointer"]);
-        },
-        get valueTypeBox() {
-            return r("WKZnPczvRWj", "pointer", ["pointer", "pointer"]);
-        },
-        get threadAttach() {
-            return r("AAGCGhRWxLl", "pointer", ["pointer"]);
-        },
-        get threadDetach() {
-            return r("RDQdPUyaqre", "void", ["pointer"]);
-        },
-        get threadGetAttachedThreads() {
-            return r("il2cpp_thread_get_all_attached_threads", "pointer", ["pointer"]);
-        },
-        get threadGetCurrent() {
-            return r("hldTyhTUXZU", "pointer", []);
-        },
-        get threadIsVm() {
-            return r("oLPpTncViqf", "bool", ["pointer"]);
-        },
-        get typeEquals() {
-            return r("_YfvUkTkoNT", "bool", ["pointer", "pointer"]);
-        },
-        get typeGetClass() {
-            return r("ItIOrtishzT", "pointer", ["pointer"]);
-        },
-        get typeGetName() {
-            return r("GgfCiprOycI", "pointer", ["pointer"]);
-        },
-        get typeGetObject() {
             return r("ddmDyxAzsHE", "pointer", ["pointer"]);
         },
+        get resolveInternalCall() {
+            return r("CORwd_LknbD", "pointer", ["pointer"]);
+        },
+        get stringGetChars() {
+            return r("iETjEqJZfrr", "pointer", ["pointer"]);
+        },
+        get stringGetLength() {
+            return r("iZmflkFIodg", "int32", ["pointer"]);
+        },
+        get stringNew() {
+            return r("hRbBmbXoTtE", "pointer", ["pointer"]);
+        },
+        get valueTypeBox() {
+            return r("djkSHUVyRsv", "pointer", ["pointer", "pointer"]);
+        },
+        get threadAttach() {
+            return r("kALdJVGuvVx", "pointer", ["pointer"]);
+        },
+        get threadDetach() {
+            return r("kIRJILexWTt", "void", ["pointer"]);
+        },
+        get threadGetAttachedThreads() {
+            return r("kkStqIZcscb", "pointer", ["pointer"]);
+        },
+        get threadGetCurrent() {
+            return r("jfiBdnvKzzk", "pointer", []);
+        },
+        get threadIsVm() {
+            return r("kmmcYlU_qoe", "bool", ["pointer"]);
+        },
+        get typeEquals() {
+            return r("oShQgZQpjBt", "bool", ["pointer", "pointer"]);
+        },
+        get typeGetClass() {
+            return r("JRLXhxwZ_eB", "pointer", ["pointer"]);
+        },
+        get typeGetName() {
+            return r("oLPpTncViqf", "pointer", ["pointer"]);
+        },
+        get typeGetObject() {
+            return r("nhkOmZxDCbR", "pointer", ["pointer"]);
+        },
         get typeGetTypeEnum() {
-            return r("TwOltvhYwzO", "int", ["pointer"]);
+            return r("oBqYEyNXLSv", "int", ["pointer"]);
         }
     };
     decorate(Il2Cpp.exports, lazy);
